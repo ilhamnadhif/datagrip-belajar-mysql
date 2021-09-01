@@ -1,0 +1,5 @@
+// export mysql
+mysqldump belajar_mysql --user root --password --result-file=$HOME/Documents/mysql/belajar_mysql.sql
+
+// import mysql
+mysql --user root --password belajar_mysql_import < $HOME/Documents/mysql/belajar_mysql.sql
